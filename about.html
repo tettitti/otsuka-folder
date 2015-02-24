@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+
+<html lang="ja">
+
+
+
+<head>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet"  href="css/about.css">
+
+	<title>Otsuka About</title>
+
+</head>
+
+
+
+<body>
+
+	
+	<ul class="nav">
+		
+		<li>
+			<a href="index.html">
+				Home
+			</a>
+		</li>
+		<li>
+			<a href="about.html">
+				About
+			</a>
+		</li>
+		<li>
+			<a href="like.html">
+				Like
+			</a>
+		</li>
+		<li>
+			<a href="portfolio.html">
+				Portfolio
+			</a>
+		</li>
+		<li>
+			<a href="contact.html">
+				Contact
+			</a>
+		</li>
+		<li>
+			<a href="message.html">
+				Message
+			</a>
+		</li>
+	</ul>
+	<!-- Profile -->
+
+	
+
+
+	<h2></br></br>Otsuka Profile</h2>
+
+
+    <div id="profile">
+	
+		<!-- <div class="detail"> -->
+
+
+		<dl>
+
+				<dt>生年月日</dt>
+				<dd>1994年9月6日</dd>
+
+				<dt>血液型</dt>
+				<dd>B型</dd>
+
+				<dt>出身</dt>
+				<dd>神奈川県秦野市</dd>
+
+				<dt>趣味</dt>
+				<dd>プログラミング/サッカー</dd>
+
+				<dt>サイズ</dt>
+				<dd>身長 174cm／靴 26.5cm</dd>
+				
+		</dl>
+
+		
+
+	</div>
+	<!-- Profile// -->
+                           
+    <p>History</p>
+                               
+    <div id="pirlo">
+
+    	<dl>
+    
+    		<dt>1994年</dt>
+                                    
+       		<dd>神奈川県の秦野市に召還された</br>
+        	後の平成の天才プログラマ大塚である
+			</dd>
+                                                                   
+    	</dl>
+                                
+    	<dl>
+        
+        	<dt>2001年</dt>
+        
+       		<dd>幼稚園を卒業する</br>
+        	ちなみにあやめ組である
+        	</dd>
+
+        </dl>
+                                
+    	<dl>
+            
+        	<dt>2004年</dt>
+        	<dd>ピルロのファンになる
+        	</dd>
+			
+		</dl>
+     
+    	<dl>
+        
+        	<dt>2009年</dt>
+        	<dd>成績が悪すぎて塾に入る</br>
+       		数学と社会が大好きになるが理科と国語はあまり克服できない
+       		</dd>
+
+    	</dl>
+
+    	<dl>
+
+    		<dt>2011年</dt>
+    		<dd>れいちぇるを好きになる</dd>
+                                
+		<dl>
+  		
+  			<dt>2012年</dt>
+        	<dd>高校１年の時クラス成績トップ、数学学年トップだったため</br>
+        	理系に入るが挫折平均評定を4.8から2.9に下げる</br>
+        	バイトを始める</br>
+        	</dd>
+
+        </dl>
+
+        <dl>
+
+        	<dt>2013</dt>
+        	<dd>パチンコが大好きなためパチンコ屋でバイトを始める</br>
+        	１人暮らしを始め料理をがんばろうとするが失敗し</br>
+        	フライパン、包丁、お皿、調味料をすべて捨てる</br>
+        	しかしバイオタン(均一に火が通るように暑さ50μでテフロン加工されいて</br>
+        	中は車のエンジンにも用いられてる高純度のアルミを独自の鋳造法である</br>スクイズダイキャスト製法で仕上げた、歪みや凹凸がなく生産地に</br>
+        	シリアルナンバーが埋め込まれている)フライパンの購入を検討中</br>
+            ひろとんに会う
+        	</dd>
+
+
+        </dl>
+
+
+        <dl>
+
+        	<dt>2014年</dt>
+        	<dd>大学2年の現在一般教養が1教科しか取れてないことに加え</br>
+        	第２セミスタのテスト科目数が15教科あるため退学を検討中</br>
+        	プログラミングと株を始める</br>
+        	巷で噂のおおつ会が本格始動する</br>
+        	Silent Sirenを好きになる</br>
+            パニーニにはまる
+        	</dd>
+
+        </dl>
+
+        <dl>
+
+        	<dt>2015年</dt>
+        	<dd>サイバーエージェントのインターンにいく</dd>
+                                
+    	</dl>
+
+    	<dl>
+
+        	<dt>2017年</dt>
+        	<dd>最終奥義である天翔龍閃(あまかけるりゅうのひらめき)を会得し</br>
+        	飛天御剣流(ひてんみつるぎりゅう)のすべての技を覚え</br>
+        	14代目比古清十郎を襲名する</dd>
+                                
+    	</dl>
+         
+   		<dl>
+        	<dt>2020年</dt>
+        	<dd>東京でオリンピックが開かれる</dd>
+
+       	</dl>
+
+    </div>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+
+            var text=new Array(8);var count=3;
+
+        $(window).keydown(function(e){
+
+            text[6]=text[5];text[5]=text[4];text[4]=text[3];text[3]=text[2];
+
+            text[2]=text[1];text[1]=text[0];text[0]=String.fromCharCode(e.
+            
+        keyCode);
+
+
+
+        if(text[2]=="R" && text[1]=="E" && text[0]=="D")$("body").css("background","red");
+        if(text[3]=="B" && text[2]=="L" && text[1]=="U" && text[0]=="E")$("body").css("background","blue");
+        if(text[5]=="Y" && text[4]=="E" && text[3]=="L" && text[2]=="L" && text[1]=="O" && text[0]=="W")$("body").css("background","#FFDE55");
+        if(text[4]=="B" && text[3]=="L" && text[2]=="A" && text[1]=="C" && text[0]=="K")$("body").css("background","black");
+        if(text[3]=="P" && text[2]=="I" && text[1]=="N" && text[0]=="K")$("body").css("background","pink");
+        if(text[4]=="G" && text[3]=="R" && text[2]=="E" && text[1]=="E" && text[0]=="N")$("body").css("background","green");
+        if(text[3]=="G")if(text[2]=="R")if(text[1]=="A")if(text[0]=="Y")$("body").css("background","gray");
+        if(text[3]=="S")if(text[2]=="N")if(text[1]=="O")if(text[0]=="W")$("body").css("background","snow");
+        if(text[4]=="W")if(text[3]=="H")if(text[2]=="I")if(text[1]=="T")if(text[0]=="E")$("body").css("background","white");
+        if(text[5]=="O")if(text[4]=="R")if(text[3]=="A")if(text[2]=="N")if(text[1]=="G")if(text[0]=="E")$("body").css("background","orange");
+        if(text[5]=="S")if(text[4]=="I")if(text[3]=="L")if(text[2]=="V")if(text[1]=="E")if(text[0]=="R")$("body").css("background","silver");
+        if(text[3]=="L")if(text[2]=="O")if(text[1]=="V")if(text[0]=="E")alert("君のハートにチェックメイト♡");
+        if(text[3]=="H")if(text[2]=="E")if(text[1]=="L")if(text[0]=="P"){alert("とりあえずすうちゃんのtwitterに飛びますか？");location="https://twitter.com/sumiredooon";}
+        if(text[2]=="A")if(text[1]=="S")if(text[0]=="K"){alert("大塚さんに質問しますか？");location="http://ask.fm/otsukasan";}
+        if(text[4]=="A" && text[3]=="B" && text[2]=="O" && text[1]=="U" && text[0]=="T")location="about.html";
+        if(text[3]=="L")if(text[2]=="I")if(text[1]=="K")if(text[0]=="E")location="like.html";
+        if(text[3]=="P" && text[2]=="O" && text[1]=="R" && text[0]=="T")location="portfolio.html";
+        if(text[3]=="C" && text[2]=="O" && text[1]=="N" && text[0]=="T")location="contact.html";
+        if(text[3]=="M" && text[2]=="E" && text[1]=="S" && text[0]=="S")location="message.html";
+        if(text[4]=="T" && text[3]=="W" && text[2]=="E" && text[1]=="E" && text[0]=="T")location="https://twitter.com/family_ldh";
+        if(text[3]=="F" && text[2]=="A" && text[1]=="C" && text[0]=="E")location="https://www.facebook.com/profile.php?id=100003212121687";
+        if(text[3]=="T" && text[2]=="E" && text[1]=="C" && text[0]=="H")location="http://techlogics.link/";
+        if(text[2]=="S" && text[1]=="U" && text[0]=="U")location="https://twitter.com/sumiredooon";
+        if(text[4]=="Y" && text[3]=="A" && text[2]=="H" && text[1]=="O" && text[0]=="O")location="http://www.yahoo.co.jp";
+        if(text[5]=="G" && text[4]=="O" && text[3]=="O" && text[2]=="G" && text[1]=="L" && text[0]=="E")location="https://www.google.com";
+        if(text[5]=="D" && text[4]=="A" && text[3]=="I" && text[2]=="C" && text[1]=="H" && text[0]=="I")location="https://twitter.com/46491147";
+
+
+            
+
+
+        // // if(text[2]=="A" && text[1]=="B" && text[0]=="C")$('body').css('background-image','none');
+
+        // // if(text[2]=="A" && text[1]=="B" && text[0]=="C")$('body').css('background-image','url("apple3.jpg")';
+
+
+
+
+        if(text[2]=="K" && text[1]=="E" && text[0]=="Y")$("#aaa").css("display","block");
+        });
+
+    $("#aaa").click(function(){
+
+        var pw = prompt(" aaa","");
+
+        location.href = pw + "";
+
+        // $("#aaa").css("display","none");
+
+        })
+
+
+        });
+
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+body{
+	background: url('../images/apple10.jpg');
+    background-size: cover;
+}
+
+
+.nav li{
+	float: left;
+	list-style: none;
+}
+
+
+
+.nav li a{
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	margin: 0;
+	padding: 10px;
+}
+
+p{
+	float: left;
+	clear: both;
+	color: rgb(221, 214, 220);
+	font-size: 32px;
+	margin: 0;
+	padding:0 20px;
+
+}
+h1{
+    
+    font-size:40px;
+    max-width: 60%;
+    font-weight:bold;    
+    /*display:inline-block;*/
+    background-image: -webkit-gradient(linear, left top, right top,
+    color-stop( 0%, red),
+    color-stop( 14%, orange),
+    color-stop( 28%, yellow),
+    color-stop( 42%, green),
+    color-stop( 56%, blue),
+    color-stop( 70%, indigo),
+    color-stop( 84%, violet),
+    color-stop(100%, red)
+    );
+    -webkit-background-clip:text;
+    color:transparent;
+    -webkit-animation:rainbow 10s linear infinite alternate;
+    margin: 0 40px;
+    padding: 30px 0;
+
+}
+
+
+
+.btn li {
+  	background: white;
+    border-top: 5px solid #C00;
+    border-left: 5px solid #09C;
+    border-right: 5px solid #9C0;
+    border-bottom: 5px solid #FC0;
+    color:#111;
+    width: 300px;
+    padding: 10px;
+    clear: both;
+    display: inline-block;
+    text-align: center;
+    /*float: center;*/
+    margin: 80px;
+    list-style: none;
+}
+.btn  li a{
+	color:black;
+	text-decoration: none;
+}

@@ -1,0 +1,157 @@
+body{
+	background: url('../images/apple4.jpg');
+    background-size: cover;
+}
+
+
+table.love {
+	width: 800px;
+	/*margin: 0 auto;*/
+	border-collapse: separate;
+	border-spacing: 4px 15px;
+	font-size: 24px;
+	/*text-align: left;*/
+	/*padding: -200px;*/
+	margin: 100px -650px 0;
+	float: left;
+}
+
+table.love th,
+table.love td {
+	padding: 10px;
+	border-radius: 5%;
+
+}
+
+table.love th {
+	background: #D23E54;
+	vertical-align: middle;
+	text-align: center;
+	width: 100px;
+	overflow: visible;
+	position: relative;
+	color: #fff;
+	font-weight: normal;
+	font-size: 24px;
+	border-radius: 50%;
+}
+
+table.love td {
+	background: #AB2525;
+	width: 10px;
+	padding-left: 20px;
+	opacity: 0.8;
+
+}
+
+
+.nav li{
+	float: left;
+	list-style: none;
+}
+
+
+
+.nav li a{
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	margin: 0;
+	padding: 10px;
+}
+
+.human{
+	float: left;
+	clear: both;
+	font-size: 40px;
+	list-style: none;
+}
+.human li a{
+	text-decoration: none;
+	color:rgb(250, 209, 209);
+	/*text-shadow:1px 1px 7px rgba(253, 172, 172, 0.95);*/
+	text-shadow:1px 1px 10px;
+
+}
+
+
+
+.human li a:hover{
+	-webkit-transition: all 1s;
+	font-size:41px;
+	/*border:double 4px #fff;*/
+	/*border-radius: 50px;*/
+	color:red;
+}
+.dandan{
+	color: #fff;
+	text-shadow:
+ 	0 0  4px #fff,
+  	0 0  8px #fff,
+  	0 0 12px #fff,
+  	0 0 18px #FF0000,
+  	0 0 22px #FF0000,
+  	0 0 28px #FF0000,
+  	0 0 36px #FF0000;
+
+}
+.silent{
+	color: #fff;
+	text-shadow:
+ 	0 0  4px #fff,
+  	0 0  8px #fff,
+  	0 0 12px #fff,
+  	0 0 18px #ff00de,
+  	0 0 22px #ff00de,
+  	0 0 28px #ff00de,
+  	0 0 36px #ff00de;
+}
+.silent:hover{
+	color:red;
+	-webkit-transition: all 1s;
+}
+.ldh{
+	color: #fff;
+	text-shadow:
+ 	0 0  4px #fff,
+  	0 0  8px #fff,
+  	0 0 12px #fff,
+  	0 0 18px #00B8FF,
+  	0 0 22px #00B8FF,
+  	0 0 28px #00B8FF,
+  	0 0 36px #00B8FF;
+}
+.ldh:hover{
+	color:blue;
+	-webkit-transition: all 1s;
+}
+.talent{
+	color: #fff;
+	text-shadow:
+ 	0 0  4px #fff,
+  	0 0  8px #fff,
+  	0 0 12px #fff,
+  	0 0 18px #9C0088,
+  	0 0 22px #9C0088,
+  	0 0 28px #9C0088,
+  	0 0 36px #9C0088;}
+.talent:hover{
+	color:pink;
+	-webkit-transition: all 1s;
+}
+.brand{
+	color: #fff;
+	text-shadow:
+ 	0 0  4px #fff,
+  	0 0  8px #fff,
+  	0 0 12px #fff,
+  	0 0 18px #000000,
+  	0 0 22px #000000,
+  	0 0 28px #000000,
+  	0 0 36px #000000;
+}
+
+.brand:hover{
+	color:gray;
+	-webkit-transition: all 1s;
+}

@@ -1,0 +1,81 @@
+
+body{
+	background: url('../images/apple8.jpg');
+    background-size: cover;
+}
+
+ul.nav {
+/*margin-top: -10px;*/
+}
+
+.nav li{
+	float: left;
+	list-style: none;
+}
+
+
+
+.nav li a{
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	margin: 0;
+	padding: 10px;
+}
+
+
+
+h2{
+	color:rgb(176, 175, 178);
+}
+
+p{
+	color:rgb(25, 169, 182);
+	font-size: 24px;
+}
+
+#pirlo{
+	color: white;
+}
+
+
+.history{
+	color:white;
+}
+
+#profile dl{
+	width: 600px;
+	margin:15px 0;
+	border-bottom: 1px solid #41505d;
+}
+
+#profile dt{
+	background:rgb(141, 140, 145);
+	color:#011627;
+	margin: 0;
+	margin-right: -10em;
+	padding: 15px 0;
+	border-top: 1px solid #41505d;
+	float: left;
+	clear: both;
+	display: inline-block;
+	width: 10em;
+	text-indent: 10px;
+}
+
+#profile dd{
+	margin-left:10em;
+	padding: 15px 10px;
+	border-top: 1px solid #41505d;
+	background-color: #011627;
+	color:rgb(141, 140, 145);
+}
+
+#profile dl{
+	min-height: 1px;
+	height: 1%;
+}
+
+span{
+	display: none;
+}

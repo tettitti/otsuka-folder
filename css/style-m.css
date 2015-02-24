@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+
+/*コンテナー（HPを囲むブロック）
+---------------------------------------------------------------------------*/
+#container {
+	width: auto;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+/*ヘッダー内のロゴ画像
+---------------------------------------------------------------------------*/
+header h1 img{
+	width: 94%;	/*画面幅に対して画像幅を94％にする*/
+	height: auto;
+}
+
+/*上部のメインメニュー
+---------------------------------------------------------------------------*/
+/*各メニューの写真部分の設定*/
+nav#menubar ul li a img {
+	border: 5px solid #FFF;	/*枠線の幅、線種、色*/
+}
+/*各メニューの写真部分のマウスオン時の設定*/
+nav#menubar ul li a:hover img {
+	border: 5px solid #FF3;	/*枠線の幅、線種、色*/
+}
+/*テキスト部分の設定*/
+nav#menubar ul li a span {
+	font-size: 13px;		/*文字サイズ*/
+}
+
+/*トップページのメイン画像
+---------------------------------------------------------------------------*/
+#mainimg {
+	height: auto;
+	width: 100%;
+}
+#slide_image {
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+#slide_image2 {
+	height: auto;
+	width: 100%;
+}
+
+/*menu.html内のメニューブロック
+---------------------------------------------------------------------------*/
+/*各ボックスの設定*/
+#main section.list article {
+	height: 400px;	/*ボックスの高さ*/
+	width: 45%;	/*ボックスの幅*/
+	margin: 0px 2% 20px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#main section.list article figure img {
+	width: 100%;
+	height: auto;
+}
+	
+/*テーブル１
+---------------------------------------------------------------------------*/
+.ta1 {
+	width: 96%;
+}
+
+/*その他
+---------------------------------------------------------------------------*/
+/*写真の設定*/
+img.wa {
+	width: 100%;
+	height: auto;
+}
