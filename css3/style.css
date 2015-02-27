@@ -65,7 +65,12 @@ img.img-responsive {
 	margin-bottom: 20px;
 }
 
-
+.tweeter .growth{
+  position:fixed;
+  top:10px;
+  right:0px;
+  list-style: none;
+}
 /* ------- Navigation ------------ */
 #navigation {
 	background: #fff;
@@ -447,6 +452,11 @@ footer a {
 footer a:hover {
 	color: #ccc;
 }
+ul.hacker{
+  list-style: none;
+  display: inline-block;
+
+}
 
 /* ==========================
 Parallax
@@ -632,5 +642,8 @@ a.btn:hover {
 		margin-top: 10px;
 		font-size: 20px;
 	}
+  .navbar {
+    height: 84px;
+  }
 	
 }
