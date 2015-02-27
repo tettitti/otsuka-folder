@@ -71,6 +71,9 @@ img.img-responsive {
   right:0px;
   list-style: none;
 }
+#die{
+  display: none;
+}
 /* ------- Navigation ------------ */
 #navigation {
 	background: #fff;
