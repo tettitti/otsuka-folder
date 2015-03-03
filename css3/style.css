@@ -259,7 +259,7 @@ hr {
 ============================ */
 
 .home-section {
-    padding-top: 120px;
+    padding-top: 30px;
     padding-bottom: 110px;
 	display:block;
     position:relative;
@@ -484,11 +484,11 @@ Parallax
 ============================ */
 
 .btn {
-
-    font-weight: 700;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+  margin-bottom: 36px;
+  font-weight: 700;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 a.btn:hover {
@@ -496,18 +496,18 @@ a.btn:hover {
 }
 
 .btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    font-size: 40px;
-    color: #fff;
-    background: 0 0;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  padding: 7px 16px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-size: 40px;
+  color: #fff;
+  background: 0 0;
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
 }
 
 .btn-circle.btn-dark {
