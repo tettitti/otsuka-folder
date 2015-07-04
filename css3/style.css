@@ -503,6 +503,7 @@ Parallax
 
 #separator {	
 	background-image: url(../img/otsukachan.jpg);
+  margin-top: 50px;
 }
 
 #separator .icon {
@@ -512,6 +513,12 @@ Parallax
 #separator span {
 	color: #fff;
 }
+
+section#jikan{
+  text-align: center;
+  width: 100%;
+}
+
 
 
 
@@ -687,5 +694,14 @@ a.btn:hover {
   .navbar {
     height: 84px;
   }
+
+  section#jikan img {
+  width: 100%;
+}
+
+  section#jikan {
+  text-align: center;
+  width: 385px;
+}
 	
 }
