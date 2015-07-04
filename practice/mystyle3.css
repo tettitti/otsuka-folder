@@ -1,0 +1,18 @@
+ ol{
+	color:blue;
+}
+h2{
+	text-align: center;
+	color:gray;
+
+}
+p{
+	text-align: center;
+	text-shadow:1px 1px 3px;
+	color: blue;
+	font-size: 40px;
+	background: gray;
+}
+div{
+	text-align: right;
+}
